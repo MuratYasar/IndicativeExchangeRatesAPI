@@ -1,0 +1,100 @@
+﻿{
+  "fields": [
+    {
+      "name": "tarih",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": 10
+      }
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": 10
+      }
+    },
+    {
+      "name": "bulten_no",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": "8"
+      }
+    },
+    {
+      "name": "crossorder",
+      "type": "integer",
+      "constraints": { "required": true }
+    },
+    {
+      "name": "kod",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": 3
+      }
+    },
+    {
+      "name": "currencycode",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": 3
+      }
+    },
+    {
+      "name": "unit",
+      "type": "integer",
+      "constraints": { "required": true }
+    },
+    {
+      "name": "isim",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": "50"
+      }
+    },
+    {
+      "name": "currencyname",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "maxLength": "50"
+      }
+    },
+    {
+      "name": "forexbuying",
+      "type": "number",
+      "constraints": { "required": false }
+    },
+    {
+      "name": "forexselling",
+      "type": "number",
+      "constraints": { "required": false }
+    },
+    {
+      "name": "banknotebuying",
+      "type": "number",
+      "constraints": { "required": false }
+    },
+    {
+      "name": "banknoteselling",
+      "type": "number",
+      "constraints": { "required": false }
+    },
+    {
+      "name": "crossrateusd",
+      "type": "number",
+      "constraints": { "required": false }
+    },
+    {
+      "name": "crossrateother",
+      "type": "number",
+      "constraints": { "required": false }
+    }
+  ]
+}
